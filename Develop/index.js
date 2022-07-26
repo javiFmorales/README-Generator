@@ -2,6 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require ("./utils/generateMarkdown")
+// const renderLicenseBadge = require("./utils/generateMarkdown")
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
@@ -27,10 +28,10 @@ const questions = () => {
             message: 'How would this app be used?',
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'license',
             message: 'What kind of licencing would you like your file to have?',
-            options:[
+            choices:[
                 "Mozilla",
                 "ISC",
                 "Apache",
@@ -65,7 +66,7 @@ const questions = () => {
 
 // TODO: Create a function to write README file
 function writeToFile(data) { 
-    fs.writeFile('Readme.md' ,data ,err =>{
+    fs.writeFile('./dist/Readme.md' ,data ,err =>{
  if (err){
         console.log('mmm... there is something missing!!!')
     }else (
@@ -83,6 +84,7 @@ questions()
     return generateMarkdown(answears);
 })
 .then (data => {
+   // console.log(data)
     return writeToFile(data);
 })
 .catch(err => {

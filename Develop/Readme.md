@@ -1,8 +1,9 @@
-# README Generator
+# effwe	
+  
 
  
   ## Description
-\This application was created to generate a high-quality, professional README depending on a series of questions a user answears in the command lin eusing node.js
+ew	f
 
 ## Table of contents
 *[INSTALLATION](#installation)
@@ -13,20 +14,20 @@
 *[QUESTIONS](#questions)
 
 ## Installation
-The user must clone the repository from github and download node. This application also requires a file system and inquirer module.
+dsds
 
 ## Usage
-
+dss
 
 ## License
-This project is license under tMIT
+This project is license under ISC
 
 ## Contribution
-The installation section should be followed
+sd
 
 ## Test
-npm test
+s
 
 ## Questions
-if you have any questions in regards to this project, please contact me at javiertoto-00@hotmail.com
-You can view more of my projects at https://github.com/javitoto-00@hotmail.com
+if you have any questions in regards to this project, please contact me at sdasd
+You can view more of my projects at https://github.com/vvdas
