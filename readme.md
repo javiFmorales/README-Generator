@@ -35,7 +35,7 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-walkthrough video: file:///Users/javiermorales/Downloads/Untitled_%20Sep%207,%202022%2011_17%20AM.webm 
+walkthrough video: https://drive.google.com/file/d/1NrdcsCxggjJqpbizaxNcuqJ3ANz_A5L5/view?usp=sharing
 
 
 chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/257f62ea-7059-4b45-y6c0-8a3aea52dad7
